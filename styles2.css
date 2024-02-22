@@ -1,0 +1,25 @@
+nav  a{ /* tous les liens a à l'intérieur de la balise nav */
+    float: left; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #000000; /* couleur du texte */
+    background:#ffffff; /* couleur de fond */
+    height: 36px; /* hauteur */
+    line-height: 33px; /* interligne */
+    padding: 0 10px; /* marges intérieur */
+    font-family: "AvenirNext-DemiBold"; /* police d'écriture */
+    font-size: 13px; /* taille du texte */
+    transition: .5s; /* temps de transition lors du hover : une demi seconde */
+    margin-top: 6px;
+    }
+
+nav p a{
+    float: right;
+}
+nav a1{
+    float:left;
+
+}
+
+    nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: #64bbf1; /* couleur de fond */
+}
