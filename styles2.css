@@ -23,3 +23,18 @@ nav a1{
     nav  a:hover{ /* tous liens lors du survol dans la balise nav */
     background: #64bbf1; /* couleur de fond */
 }
+
+@media (max-width: 576px) {
+    div a {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+}
+
+div a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
