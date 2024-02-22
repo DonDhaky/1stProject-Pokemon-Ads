@@ -9,11 +9,12 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
     font-family: "AvenirNext-DemiBold"; /* police d'écriture */
     font-size: 13px; /* taille du texte */
     transition: .5s; /* temps de transition lors du hover : une demi seconde */
-    margin-top: 6px;
+    margin-top: 6px; /* espace */
     }
 
 nav p a{
     float: right;
+    margin-top: 6px;
 }
 nav a1{
     float:left;
