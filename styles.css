@@ -1,0 +1,23 @@
+.produits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img {
+        max-width: 100%;
+        max-height: 100%
+        }
+
+
+@media screen and (max-width: 600px) {
+    .produits {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img {
+        max-width: 100%;
+        max-height: 100%
+        }
+}
