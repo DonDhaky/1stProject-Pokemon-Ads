@@ -49,13 +49,40 @@ input {
     .loupe {
         float: inline-start;
         margin-left: 20px;
+        cursor: pointer
     }
     .decalage {
         margin-left: 50px;
     }
     .mot {
         font-family: "Avenir";
-        color: #000000;
-        
-        
+        color: #000000;  
+        /* font-size: 30px; */
     }
+    .pagination {
+        display: inline-block;
+        padding-bottom: 7rem;
+        float: left;
+        display: inline-block;
+        padding-left: 0;
+        padding-right:20px
+        margin: 20px 0;
+        border-radius: 4px;
+        bottom: 12px
+      }
+      
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        
+      }
+      
+      .pagination a.active {
+        background-color: black;
+        color: white;
+        
+      }
+      
+      .pagination a:hover:not(.active) {background-color: #ddd;}
