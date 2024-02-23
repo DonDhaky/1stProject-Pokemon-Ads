@@ -113,7 +113,7 @@
       .pagination a:hover:not(.active) {background-color: #ddd;
     }
 
-    @media screen and (max-width:500px)
+    @media screen and (max-width:600px)
     { 
         nav
         {
@@ -744,7 +744,7 @@ input[type=range] {
 
 /* MEDIA QUERY POUR LA RESPONSIVE DU BODY !!!!! */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
     .center2 {  display:grid;
         grid-template-columns: 1fr;
