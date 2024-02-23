@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="new.css">
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">              
 </head>
     <body>
         <nav>
@@ -24,17 +25,26 @@
                 </div>
             </div>
          </nav>
-        </nav>
-            <div class="loupe">
-                <img src="Search.png" alt="search">
-                <input class="mot" placeholder="living room">
-                <img src="Sajari Logo.png" alt="sajlogo">
-                <hr size="3px" background-color="black">
-                <div class="bestmatch"></div> <p> Best match <hr> <p>
-                </button>
-            </div>
-        </nav>
-    <footer>
+            <div class="container1">
+                <div class="loupe">
+                    <div style="display:flex; align-items: center;">
+                        <img src="Search.png" alt="search">
+                        <input class="livingroom" placeholder="living room">
+                        <p style="font-size:small; margin-right: 20px; margin-left: 25px;"> Powerder by <b> Algolia </b> </p>
+                        <div><img style=" padding-top: 6px;"src="Sajari Logo.png" alt="sajlogo"> 
+                        </div>
+                    </div>       
+                        <hr size="3px" background-color="black">
+                    </div>
+                <select name="bouonselect" id="boutonSelect">
+                <option value="">Best match</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                </select>
+            </div> 
+            </div> 
+        <footer>
             <div class="pagination">
                 <a class="active" href="#">1</a>
                 <a href="#">2</a>
