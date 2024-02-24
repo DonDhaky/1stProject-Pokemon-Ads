@@ -1,4 +1,4 @@
-    *{
+*{
     font-family: 'Avenir', sans-serif;                                             
     }
     input:focus {
@@ -48,6 +48,9 @@
     .loupe {
         margin-left: 20px;
         cursor: pointer;
+    }
+    .hamburger {
+        display: none;
         
     }
     .decalage {
@@ -76,6 +79,12 @@
         padding-bottom: 0px;
         margin-bottom: 9px;
       }
+     
+      #boutonfilter{
+    
+        display: none;
+      }
+
 
     .pagination {
         display: inline-block;
@@ -97,4 +106,69 @@
         
       }
       
-      .pagination a:hover:not(.active) {background-color: #ddd;}
+      .pagination a:hover:not(.active) {background-color: #ddd;
+    }
+
+    @media screen and (max-width:430px)
+    { 
+        nav
+        {
+            height : 60px;
+        }
+        .decalage
+        {
+            display: none;
+        }
+        .hamburger 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: black;
+        cursor: pointer;
+    }
+        .container1{
+            display: block;
+            margin-top: 50px;
+        }
+        #boutonSelect{
+            display: flex;
+            align-items: center;
+            color: #070303;  
+            font-size: 25px;
+            width: 90vw;
+            margin-left: 10px;
+            font-family: sans-serif;
+            border-color: transparent transparent rgba(106, 100, 120, 0.457) transparent;
+            padding-top: 5px;
+            padding-bottom: 15px;
+            margin-top: 30px;
+            margin-bottom: 9px;
+          }
+          #boutonfilter{
+            display: flex;
+            align-items: center;
+            color: #070303;  
+            font-size: 25px;
+            width: 90vw;
+            margin-left: 10px;
+            font-family: sans-serif;
+            border-color: transparent transparent rgba(106, 100, 120, 0.457) transparent;
+            padding-top: 5px;
+            padding-bottom: 15px;
+            margin-top: 30px;
+            margin-bottom: 9px;
+            
+          }
+          .Algolia{
+            position: absolute;
+            top: 160px;
+            left: 180px;
+
+
+          }
+    
+}

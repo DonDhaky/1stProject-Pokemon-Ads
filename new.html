@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="newbis.css">
     <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">              
 </head>
     <body>
@@ -13,7 +13,7 @@
             <div class="container">
                 <!-- enfant 1 -->
                 <div class="elem1">
-                    <img src="Logo.png" alt="logo"/>
+                    <img src="Logo.png" alt="logo"/>                	
                     <a class="decalage" href="">HOME</a>
                     <a class="decalage" href="">SHOP</a>
                     <a class="decalage" href="">MAGAZINE</a>
@@ -21,7 +21,8 @@
                 <!-- enfant 2 -->
                 <div class="elem2">
                     <img src="Cart Button.png" alt="Cart"/>
-                    <a href="">LOGIN</a>
+                    <div class="hamburger">☰</div>           
+                    <a class="decalage" href="">LOGIN</a>
                 </div>
             </div>
          </nav>
@@ -30,19 +31,27 @@
                     <div style="display:flex; align-items: center;">
                         <img src="Search.png" alt="search">
                         <input class="livingroom" placeholder="living room">
+                        <div class="Algolia" style="display:flex; align-items: center;">
                         <p style="font-size:small; margin-right: 20px; margin-left: 25px;"> Powerder by <b> Algolia </b> </p>
-                        <div><img style=" padding-top: 6px;"src="Sajari Logo.png" alt="sajlogo"> 
+                            <div><img style=" padding-top: 6px;"src="Sajari Logo.png" alt="sajlogo"> 
                         </div>
-                    </div>       
-                        <hr size="3px" background-color="black">
                     </div>
-                <select name="bouonselect" id="boutonSelect">
-                <option value="">Best match</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                </select>
-            </div> 
+                </div>       
+                    <hr size="3px" background-color="black">
+                </div>
+                    <select name="bouonselect" id="boutonSelect">
+                    <option value="">Best match</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    </select>
+                    <select name="boutonfilter" id="boutonfilter">
+                    <option value="">Filters</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    </select>
+                </div> 
             </div> 
         <footer>
             <div class="pagination">
