@@ -317,6 +317,15 @@ input[type=range] {
     min-width: 90%;
   }
 
+  .basprix {
+    float: left;
+  }
+
+  .hautprix {
+    float: right;
+    margin-right:10%;
+  }
+
 
 
 /* CSS AJOUT POUR MOBILES */
